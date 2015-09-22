@@ -1,0 +1,99 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Responsive</title>
+    
+    <style>
+      @media screen and (min-width:600px) {
+        .two-col > tbody > tr {
+          display: table-cell;
+          vertical-align: top;
+          width: 50%;
+        }
+        .two-col > tbody > tr > td {
+          display: block;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <font face="Tahoma">
+    <table class="gray" width="100%" bgcolor="#f1f5f9">
+      <tr>
+        <td align="center">
+          <table class="father" width="100%" style="max-width:520px;" bgcolor="#ffffff" cellspacing="0" cellpadding="0">
+            <tr class="header" bgcolor="#000000">
+              <td>
+                <table width="100%">
+                  <tr>
+                    <td>
+                      <font color="#ffffff">SONY</font>
+                    </td>
+                    <td align="right">
+                      <font color="#ffffff">Televendas 4003 9507</font>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr><!--.header-->
+            <tr class="banner"><!--1coluna-->
+              <td>
+                <table cellpadding="20" cellspacing="0" class="one-col">
+                  <tbody>
+                    <tr>
+                      <td class="container" align="center">
+                        <h2>Eternize sua melhor performance com a Action Cam AS200.</h2>
+                        <h3>Action Cam - AS200 com Cartão Micro SD 32 GB incluso</h3>
+                        <img src="img/1.jpg" width="100%" />
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </td>
+            </tr><!--.banner-->
+            <tr class="responsive"><!--2colunas-->
+              <td>
+                <table cellpadding="20" cellspacing="0" class="two-col">
+                  <tbody>
+                    <tr>
+                      <td class="container" align="center">
+                        <img src="img/2.jpg" width="100%" />
+                        <h3>Suas fotos, do seu jeito</h3>
+                        <p>Use as definições manuais avançadas como equilíbrio de brancos e mudança de AE.</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="container" align="center">
+                        <img src="img/3.jpg" width="100%" />
+                        <h3>Comando total com o Live-View Remote</h3>
+                        <p>É como ter uma equipe de filmagens no seu pulso.
+                          Com o RM-LVR2, você pode utilizar reprodução no local e verificação
+                          de gravação, além de excluir imagens desnecessárias para otimizar a capacidade de gravação.</p>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </td>
+            </tr><!--.responsive-->
+            <tr class="footer">
+              <td>
+                <p><font size="2">
+                  Ofertas válidas até dia 22/09/2015 para compras efetuadas dentro do site da
+                  Sony Store e estão sujeitas à disponibilidade de estoque e alteração das condições
+                  sem aviso prévio (o que ocorrer primeiro).</br>
+                  Caso haja diferença entre o preço ofertado e o preço do carrinho,
+                  será considerado para a compra o preço apresentado no carrinho de compra.</br>
+                  Fale com o nosso Televendas: (11) 4003 9507, indicado para capitais e regiões
+                  metropolitanas. Para outras localidades, disque 0800 888 9507.
+                  Horário de atendimento: de Segunda a Sexta das 8h às 20h e Sábado das 8h às 14h.</br>
+                  As imagens são meramente ilustrativas e podem não representar fielmente a realidade.</br>
+                  Boas Compras!</font></p>
+              </td>
+            </tr><!--.footer-->
+          </table><!--.father-->
+        </td>
+      </tr>
+    </table><!--.gray-->
+    </font>
+  </body>
+</html>
